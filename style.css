@@ -1,0 +1,61 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300&family=Outfit:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+}
+.container{
+    
+    min-height: 100vh;
+	background-color:var(--Light_gray);
+    font-family: 'Outfit', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.card{
+    margin: 1em 2em;
+	max-width: 400px;
+    background-color: var(--White);
+	border-radius: 1.5em;
+  
+
+}
+.qr-img{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4.5%;
+    display: block;
+    border-radius: 30px;
+}
+
+h1{
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0.4em auto;
+}
+p{
+    font-size: 1em;
+    font-weight: 400;
+    width: 70%;
+    margin: 1em auto 3em auto;
+    text-align: center;
+    color: var(--Grayish_blue);
+  }
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
